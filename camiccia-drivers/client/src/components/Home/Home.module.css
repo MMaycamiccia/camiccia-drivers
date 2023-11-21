@@ -1,0 +1,143 @@
+.divPadre {
+  font-family: Arial, sans-serif;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  background-image: url("../imagenes/log2.gif");
+    width: 100%;
+    height: 100%;
+  top: 0%;
+  left: 0%;
+
+   
+ 
+}
+
+h1 {
+  color: white;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.divFragment {
+
+  max-width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+.cardsContainer {
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.divSelects select {
+  color: black;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.filtros {
+  background: rgb(255,5,31);
+background: radial-gradient(circle, rgba(255,5,31,1) 0%, rgba(4,10,18,1) 100%);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 10%;
+  width: 98%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  z-index: 1000;
+}
+  .filtros1 {
+  background: rgb(255,5,31);
+background: radial-gradient(circle, rgba(255,5,31,1) 0%, rgba(4,10,18,1) 100%);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 20%;
+  width: 95%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  z-index: 1000;
+}
+
+h4 {
+  color: white;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+div {
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+}
+
+.botonCrear {
+  width: 300px;
+  padding: 8px 16px;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.botonCrear a {
+  color: white;
+  text-decoration: none;
+}
+
+.botonCrear:hover {
+  background-color: white;
+  color: black;
+}
+
+.botonCrear:hover a {
+  color: black;
+}
+
+.botonCargar {
+  background-color: red;
+  color: white;
+  transition: box-shadow 0.6s ease-in-out;
+}
+
+.botonCargar:hover {
+  box-shadow: 0px 0px 500px rgb(255, 255, 255);
+}
+
+.alertContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert {
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 750px;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  background-color: hsl(0, 0%, 80%);
+}

@@ -1,0 +1,38 @@
+.paginadoNum {
+    color: black;
+    background-color: antiquewhite;
+}
+
+.paginadoContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paginadoList {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .paginadoItem {
+    width: 100px;
+    text-align: center;
+  }
+  
+  .paginadoItem a {
+    display: block;
+    padding: 10px;
+    background-color: #e0e0e0;
+    color: #e00b0b;
+    text-decoration: none;
+  }
+  
+  .paginadoItem a:hover {
+    background-color: #ccc;
+  }
+  
+  .paginadoItem.active a {
+    background-color: #e20505;
+    color: #fff;
+  }
+

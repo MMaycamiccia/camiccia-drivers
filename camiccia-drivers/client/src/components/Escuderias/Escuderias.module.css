@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    background-color: #f1f1f1;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+  
+  button {
+    background-color: #fa2b0f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f82803;
+  }
+  
+  /* Estilos específicos */
+  .divPadre {
+    text-align: center;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+ .errors {
+    color: red;
+    font-size: small;
+    font-style: italic;
+
+ }
+
+ .cardsContainer{
+    font-family: Arial, sans-serif;
+    margin-top: 10px;   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    flex-wrap: wrap;
+    overflow-y:scroll;
+    overflow-x: auto;
+}

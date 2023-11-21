@@ -1,0 +1,35 @@
+.searchBar {
+    display: flex;
+    align-items:normal; /* Nueva línea para alinear verticalmente los elementos */
+    border-radius: 4px;
+    z-index: 1;
+  }
+  
+  .searchBar:hover {
+    color: rgb(110, 0, 0);
+  }
+  
+  .botonSearch {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    background-color: rgb(250, 15, 15);
+    color: white;
+    margin-left: 8px; /* Reduce el margen izquierdo para que esté más cerca de la barra de búsqueda */
+  }
+  
+  .botonSearch:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .barraBusqueda {
+    border-radius: 8px;
+  }
+  
+  .barraBusqueda:hover {
+    color: rgb(224, 18, 18);
+  }
+  

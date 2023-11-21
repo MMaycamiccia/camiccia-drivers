@@ -1,0 +1,78 @@
+.navBar {
+  background: rgb(255,5,31);
+background: radial-gradient(circle, rgba(255,5,31,1) 0%, rgba(4,10,18,1) 100%);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 98%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.navBarLeft {
+  display: flex;
+  align-items: center;
+}
+
+.navBarButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #f8f0f0;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navBarButton:hover {
+  color: #ff0000;
+}
+
+.navBarCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.filterContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  margin-left: 5px;
+  color: ;
+}
+
+.navBarRight {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  color: #dd1313;
+
+}
+
+.imput {
+  width: 240px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 15px;
+  font-weight: 600;
+  color: #dd1313(--font-color);
+  padding: 5px 10px;
+  outline: none;
+}

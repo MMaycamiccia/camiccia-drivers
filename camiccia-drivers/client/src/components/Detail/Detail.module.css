@@ -1,0 +1,107 @@
+
+
+
+
+
+.divPadre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("../imagenes/im.jpg");
+
+}
+
+.divDetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+}
+
+.bottomButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.leftColumn {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245, 0.1);
+    margin: 20px;
+    width: fit-content;
+    height: fit-content;
+    transition: 1s;
+}
+.leftColumn:hover {
+    box-shadow: 0px 0px 300px rgb(245, 245, 247);
+    background-color: rgba(59, 57, 81, 0.748);
+}
+
+.imgDriver {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.rightColumn {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+.rightColumn:hover {
+    box-shadow: 0px 0px 300px rgb(132, 132, 133);
+    background-color: rgba(59, 57, 81, 0.748);
+    color: white;
+}
+
+.rightColumn h3 {
+    font-size:large;
+    justify-items: center;
+    align-content: center;
+}
+
+.divDetail h2 {
+    text-align: left;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.divDetail h2 button {
+    margin-top: 10px;
+}
+
+.teamsDiv {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.description {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: fit-content;
+    max-height: fit-content;
+}
